@@ -8,14 +8,14 @@ $client = new MongoDB\Client(
     $register= array(
 
     
-        "_id"=>"9876",
+        
         "user"=>"aldana",
         "pass"=>"abc123",
 
     );
 
     $resultado=$tb->insertOne($register);
-    echo $resultado->getInsertId();
+    echo json_encode($register);
 
 
 ?>
