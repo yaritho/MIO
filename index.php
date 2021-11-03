@@ -1,13 +1,13 @@
 <?php
 
-echo"holiii";
+
 $register= array(
 
     
         
-    "user"=>"yary",
-    "pass"=>"abc123",
-    
+    "name"=>"miguel",
+    "edad"=>"miguel",
+    "register"=>"15",
 
 
 );
