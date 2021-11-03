@@ -5,9 +5,9 @@ $register= array(
 
     
         
-    "name"=>"miguel",
-    "edad"=>"miguel",
-    "register"=>"15",
+    "user"=>"yary",
+    "pass"=>"abc123",
+    
 
 
 );
