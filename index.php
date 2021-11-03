@@ -5,8 +5,10 @@ $register= array(
 
     
         
-    "user"=>"aldana",
-    "pass"=>"abc123",
+    "name"=>"miguel",
+    "edad"=>"miguel",
+    "register"=>"15",
+
 
 );
 
