@@ -7,7 +7,7 @@ $client = new MongoDB\Client(
     $tb=$client->lluvia->Precipitacion;
 $filter= ['$and'=>
             [
-                ['AñO'=>['$eq'=>'1997']],
+                ['AÑO'=>['$eq'=>'1997']],
                 ['ESTACIÓN'=>['$eq'=>'Pajas Blancas']]
             ]
         ];
