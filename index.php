@@ -4,7 +4,7 @@
 require_once __DIR__ . '/vender/autoload.php';
 
 $client = new MongoDB\Client(
-    'mongodb+srv://sebastian:<password>@cluster0.kwxgh.mongodb.net/sebastian?retryWrites=true&w=majority');
+    'mongodb+srv://sebastian:Yaritho.g.e123@cluster0.kwxgh.mongodb.net/sebastian?retryWrites=true&w=majority');
 
     $tb=$client->lluvia->Precipitacion;
 $filter= ['$and'=>
