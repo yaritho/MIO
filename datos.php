@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__ . '/vender/autoload.php';
+require_once __DIR__ . '/vendor/autoload.php';
 $a=$_GET['ANNO'];
 $b=$_GET['MUNICIPIO'];
 $client = new MongoDB\Client(
